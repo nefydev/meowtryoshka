@@ -1,0 +1,532 @@
+@keyframes a {
+    0% {
+        transform: translate(0)
+    }
+
+    33% {
+        transform: translateY(-150px)
+    }
+
+    66% {
+        transform: translate(-350px, -150px)
+    }
+
+    to {
+        transform: translate(-350px, 130%)
+    }
+}
+
+@keyframes b {
+    to {
+        transform: translate(-400px)
+    }
+}
+
+@keyframes c {
+    0% {
+        transform: translate(0)
+    }
+
+    33% {
+        transform: translateY(-300px)
+    }
+
+    66% {
+        transform: translate(350px, -300px)
+    }
+
+    to {
+        transform: translate(350px)
+    }
+}
+
+@keyframes d {
+
+    0%,
+    to {
+        transform: translate(-50px) rotate(0)
+    }
+
+    25%,
+    75% {
+        transform: translate(-50px, -40px) rotate(-5deg)
+    }
+
+    50% {
+        transform: translate(-50px, -40px) rotate(5deg)
+    }
+}
+
+@keyframes e {
+    0% {
+        transform: translate(0)
+    }
+
+    33% {
+        transform: translateY(-250px)
+    }
+
+    66% {
+        transform: translate(550px, -250px)
+    }
+
+    to {
+        transform: translate(550px, 130%)
+    }
+}
+
+@keyframes f {
+    to {
+        transform: translate(-50px)
+    }
+}
+
+@keyframes g {
+    0% {
+        transform: translate(-50px)
+    }
+
+    33% {
+        transform: translate(-50px, -300px)
+    }
+
+    66% {
+        transform: translate(250px, -300px)
+    }
+
+    to {
+        transform: translate(250px)
+    }
+}
+
+@keyframes h {
+
+    0%,
+    to {
+        transform: translate(250px) rotate(0)
+    }
+
+    25%,
+    75% {
+        transform: translate(250px, -40px) rotate(-5deg)
+    }
+
+    50% {
+        transform: translate(250px, -40px) rotate(5deg)
+    }
+}
+
+@keyframes i {
+    0% {
+        transform: translate(0)
+    }
+
+    50% {
+        transform: translateY(-250px)
+    }
+
+    to {
+        transform: translate(-300px, -250px)
+    }
+}
+
+@keyframes j {
+    0% {
+        transform: translate(240px)
+    }
+
+    33% {
+        transform: translate(240px, -300px)
+    }
+
+    66% {
+        transform: translate(490px, -300px)
+    }
+
+    to {
+        transform: translate(490px)
+    }
+}
+
+@keyframes k {
+
+    0%,
+    to {
+        transform: translate(490px) rotate(0)
+    }
+
+    25%,
+    75% {
+        transform: translate(490px, -40px) rotate(-5deg)
+    }
+
+    50% {
+        transform: translate(490px, -40px) rotate(5deg)
+    }
+}
+
+@keyframes l {
+
+    0%,
+    to {
+        transform: translate(0) rotate(0)
+    }
+
+    25%,
+    75% {
+        transform: translate(0) rotate(-5deg)
+    }
+
+    50% {
+        transform: translate(0) rotate(5deg)
+    }
+}
+
+@keyframes m {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translateY(-418px)
+    }
+}
+
+@keyframes n {
+    0% {
+        transform: translate(0)
+    }
+
+    to {
+        transform: translateY(-275px)
+    }
+}
+
+@keyframes o {
+
+    0%,
+    to {
+        transform: translate(0) rotate(0)
+    }
+
+    25%,
+    75% {
+        transform: translateY(-40px) rotate(-5deg)
+    }
+
+    50% {
+        transform: translateY(-40px) rotate(5deg)
+    }
+}
+
+@keyframes p {
+    0% {
+        transform: translate(0);
+        opacity: 1
+    }
+
+    to {
+        transform: translate(-500px);
+        opacity: 0
+    }
+}
+
+.nf-meowtryoshka-header {
+    padding: 140px 200px 80px;
+    color: #fff;
+    background-image: url(../img/bg-dots.png);
+    background-color: #fff;
+    user-select: none
+}
+
+.nf-meowtryoshka-header .category {
+    padding: 5px
+}
+
+.nf-meowtryoshka-header .description {
+    padding: 5px;
+    font-weight: 500;
+    color: #000
+}
+
+.nf-meowtryoshka-header .inspiration {
+    padding: 5px;
+    color: #cacaca
+}
+
+.nf-meowtryoshka-header .inspiration a {
+    color: #5d5d5d
+}
+
+.nf-meowtryoshka-header .inspiration a:hover {
+    color: #000
+}
+
+.nf-meowtryoshka-footer {
+    margin: 0;
+    background-image: url(../img/bg-wood.png);
+    user-select: none;
+    padding: 120px 0 100px
+}
+
+.nf-meowtryoshka-footer .icon {
+    margin-bottom: 40px
+}
+
+.nf-meowtryoshka-footer .icon img:hover {
+    animation: shakeElement 1.25s cubic-bezier(.36, .07, .19, .97) 1
+}
+
+.nf-meowtryoshka-footer .links {
+    margin: 20px 0 0
+}
+
+.nf-meowtryoshka-footer .links a {
+    color: #000;
+    padding: 10px 30px;
+    transition: all .5s;
+    display: inline-block;
+    font-weight: 500
+}
+
+.nf-meowtryoshka-footer .links a:hover {
+    color: #c1f1df;
+    letter-spacing: 1px
+}
+
+.nf-meowtryoshka-footer .social {
+    margin: 20px 0
+}
+
+.nf-meowtryoshka-footer .social a {
+    padding: 10px 15px;
+    margin: 10px;
+    color: #050505;
+    font-size: 1.125rem;
+    background-color: #c3f1df;
+    transition: all .5s;
+    display: inline-block;
+    border: 2px solid #000
+}
+
+.nf-meowtryoshka-footer .social a:hover {
+    background-color: #5ddfb5
+}
+
+.nf-meowtryoshka-section {
+    background-color: #fff9f1;
+    background-size: 1200px;
+    border-bottom: 10px solid #d8be9e;
+    overflow: hidden;
+    user-select: none
+}
+
+.nf-meowtryoshka-section .instructions {
+    padding-top: 80px
+}
+
+.nf-meowtryoshka-section .instructions h5 {
+    color: #e8d5bd;
+    opacity: .7
+}
+
+.nf-meowtryoshka-section .open-meow-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    width: 100%;
+    padding: 300px 0;
+    position: relative
+}
+
+.nf-meowtryoshka-section .meow-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 360px 0;
+    position: relative
+}
+
+.nf-meowtryoshka-section .meow-section.readonly {
+    pointer-events: none
+}
+
+.nf-meowtryoshka-section .meow-section .meow {
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    display: none
+}
+
+.nf-meowtryoshka-section .meow-section .meow .meow-body {
+    cursor: pointer
+}
+
+.nf-meowtryoshka-section .meow-section .meow.selected {
+    display: block;
+    pointer-events: none
+}
+
+.nf-meowtryoshka-section .meow-section .meow.next {
+    display: block
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow1 {
+    z-index: 4;
+    width: 350px;
+    margin-right: 25px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow1 .meow-top {
+    margin: 0 48px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow2 {
+    z-index: 3;
+    width: 300px;
+    margin-right: 25px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow2 .meow-top {
+    margin: 0 42px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow3 {
+    z-index: 2;
+    width: 250px;
+    margin-right: 25px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow3 .meow-top {
+    margin: 0 34px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow4 {
+    z-index: 1;
+    width: 200px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow4 .meow-note {
+    display: none;
+    width: 100px;
+    margin: 0 auto 10px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow4 .meow-top {
+    margin: 0 26px
+}
+
+.nf-meowtryoshka-section .meow-section .meow.meow4.selected .meow-note {
+    display: block;
+    animation: l 1s linear infinite
+}
+
+.nf-meowtryoshka-arrow {
+    position: absolute;
+    text-align: right;
+    right: 40px
+}
+
+.nf-meowtryoshka-arrow img {
+    cursor: pointer
+}
+
+@media (min-width:993px) {
+    .nf-meowtryoshka-section .meow-section .meow.meow1.selected {
+        animation: b 3s 9s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow1.selected .meow-top {
+        animation: a 3s forwards, a 3s 6s alternate-reverse forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow2.selected {
+        transform: translate(-50px)
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow2.selected .meow-top {
+        animation: e 3s forwards, e 3s 6s alternate-reverse forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow2.next {
+        animation: c 3s 3s forwards, f 3s 10s forwards, d 1s 13s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow3.selected {
+        transform: translate(250px)
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow3.selected .meow-top {
+        animation: i 3s forwards, i 3s 6s alternate-reverse forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow3.next {
+        transform: translate(-50px);
+        animation: g 3s 3s forwards, h 1s 9s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow4.selected {
+        transform: translate(490px)
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow4.next {
+        transform: translate(240px);
+        animation: j 3s 3s forwards, k 1s 9s forwards
+    }
+}
+
+@media (max-width:992px) {
+    .nf-meowtryoshka-header {
+        padding: 140px 0 100px
+    }
+
+    .nf-meowtryoshka-footer .links a {
+        padding: 10px 20px
+    }
+
+    .nf-meowtryoshka-arrow img {
+        width: 30px
+    }
+
+    .nf-meowtryoshka-section .meow-section {
+        padding: 440px 0
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow {
+        margin: 0 25px
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow1.selected {
+        animation: p 3s 6s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow1.selected .meow-top {
+        animation: m 3s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow2.selected {
+        animation: p 3s 6s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow2.selected .meow-top {
+        animation: m 3s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow2.next {
+        animation: n 3s 3s forwards, n 3s 8s alternate-reverse forwards, o 1s 11s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow3.selected {
+        animation: p 3s 6s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow3.selected .meow-top {
+        animation: m 3s forwards
+    }
+
+    .nf-meowtryoshka-section .meow-section .meow.meow3.next,
+    .nf-meowtryoshka-section .meow-section .meow.meow4.next {
+        animation: n 3s 3s forwards, n 3s 8s alternate-reverse forwards, o 1s 11s forwards
+    }
+}
